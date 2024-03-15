@@ -10,7 +10,7 @@ public class Main {
         }
         int k = scanner.nextInt();
         
-        Arrays.sort(arr, 0, Math.min(k, n)); // Sort the first K elements
+        Arrays.sort(arr, 0, Math.min(k, n)); 
         
         boolean isSorted = true;
         for (int i = 1; i < n; i++) {
